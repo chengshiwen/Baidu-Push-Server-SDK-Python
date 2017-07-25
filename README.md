@@ -3,7 +3,7 @@
 
 将百度云推送（Push）服务端的所有 API 封装成一个类 `Channel.py`，通过对该类的简单初始化，即可调用其内部的各种方法，使用百度云推送服务。
 
-`Channel.py` 提供的方法和服务端 API 对应，是对服务端 REST API 的封装，详细的 REST API 请参考[官网API列表](http://developer.baidu.com/wiki/index.php?title=docs/cplat/push/api/list)。
+`Channel.py` 提供的方法和服务端 API 对应，是对服务端 REST API 的封装，详细的 REST API 请参考[官网API列表](http://push.baidu.com/doc/restapi/restapi)。
 
 
 ### 代码构成
@@ -21,7 +21,7 @@
 
 *   所有函数的参数和返回值中如果有中文，必须是UTF-8编码
 *   不需要对函数参数进行urlencode
-*   错误信息见 [错误码定义](http://developer.baidu.com/wiki/index.php?title=docs/cplat/push/api#JSON.E5.93.8D.E5.BA.94.E7.BC.96.E7.A0.81)
+*   错误信息见 [错误码定义](http://push.baidu.com/doc/restapi/error_code)
 
 
 ### 版本更迭
@@ -42,4 +42,4 @@
 
 **第四版：**
 
-由 [cheng-shiwen](https://github.com/cheng-shiwen) 更新，Github 地址：<https://github.com/cheng-shiwen/Baidu-Push-Server-SDK-Python>
+由 [chengshiwen](https://github.com/chengshiwen) 更新，Github 地址：<https://github.com/chengshiwen/Baidu-Push-Server-SDK-Python>
